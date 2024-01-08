@@ -1,12 +1,10 @@
 @use "sass:map";
 @import "./variables.scss";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import "./type.scss";
 
 html,
 body {
-	font-size: 1.4rem;
 	background: map.get($colours, "neutral");
-	font-family: "Poppins", sans-serif;
 }
 
 * {
@@ -21,9 +19,6 @@ body {
 html,
 body,
 label,
-button,
-a,
-a:visited,
-a:hover {
+button {
 	color: #fff;
 }
